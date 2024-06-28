@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate:up": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down",
+    "migrate:redo": "node-pg-migrate redo",
+    "migrate:create": "node-pg-migrate create"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate-pg": "^1.5.2",
+    "express": "^4.19.2",
+    "node-pg-migrate": "^7.5.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  }
+}
